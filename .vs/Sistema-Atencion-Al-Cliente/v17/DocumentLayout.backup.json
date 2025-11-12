@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\rodry\\source\\repos\\Sistema-Atencion-Al-Cliente\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2DF4099C-C3DE-4EC8-A1A0-0BCEBDA88D38}|Sistema-Atencion-Al-Cliente\\Sistema-Atencion-Al-Cliente.csproj|c:\\users\\rodry\\source\\repos\\sistema-atencion-al-cliente\\sistema-atencion-al-cliente\\formularios\\grabaciones\\formexplicaciondelcodigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2DF4099C-C3DE-4EC8-A1A0-0BCEBDA88D38}|Sistema-Atencion-Al-Cliente\\Sistema-Atencion-Al-Cliente.csproj|solutionrelative:sistema-atencion-al-cliente\\formularios\\grabaciones\\formexplicaciondelcodigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{2DF4099C-C3DE-4EC8-A1A0-0BCEBDA88D38}|Sistema-Atencion-Al-Cliente\\Sistema-Atencion-Al-Cliente.csproj|c:\\users\\rodry\\source\\repos\\sistema-atencion-al-cliente\\sistema-atencion-al-cliente\\formularios\\formclientes\\formatender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DF4099C-C3DE-4EC8-A1A0-0BCEBDA88D38}|Sistema-Atencion-Al-Cliente\\Sistema-Atencion-Al-Cliente.csproj|solutionrelative:sistema-atencion-al-cliente\\formularios\\formclientes\\formatender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2DF4099C-C3DE-4EC8-A1A0-0BCEBDA88D38}|Sistema-Atencion-Al-Cliente\\Sistema-Atencion-Al-Cliente.csproj|c:\\users\\rodry\\source\\repos\\sistema-atencion-al-cliente\\sistema-atencion-al-cliente\\utilidades\\abrirurl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DF4099C-C3DE-4EC8-A1A0-0BCEBDA88D38}|Sistema-Atencion-Al-Cliente\\Sistema-Atencion-Al-Cliente.csproj|solutionrelative:sistema-atencion-al-cliente\\utilidades\\abrirurl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2DF4099C-C3DE-4EC8-A1A0-0BCEBDA88D38}|Sistema-Atencion-Al-Cliente\\Sistema-Atencion-Al-Cliente.csproj|c:\\users\\rodry\\source\\repos\\sistema-atencion-al-cliente\\sistema-atencion-al-cliente\\formularios\\formclientes\\formatender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2DF4099C-C3DE-4EC8-A1A0-0BCEBDA88D38}|Sistema-Atencion-Al-Cliente\\Sistema-Atencion-Al-Cliente.csproj|solutionrelative:sistema-atencion-al-cliente\\formularios\\formclientes\\formatender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2DF4099C-C3DE-4EC8-A1A0-0BCEBDA88D38}|Sistema-Atencion-Al-Cliente\\Sistema-Atencion-Al-Cliente.csproj|c:\\users\\rodry\\source\\repos\\sistema-atencion-al-cliente\\sistema-atencion-al-cliente\\utilidades\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DF4099C-C3DE-4EC8-A1A0-0BCEBDA88D38}|Sistema-Atencion-Al-Cliente\\Sistema-Atencion-Al-Cliente.csproj|solutionrelative:sistema-atencion-al-cliente\\utilidades\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2DF4099C-C3DE-4EC8-A1A0-0BCEBDA88D38}|Sistema-Atencion-Al-Cliente\\Sistema-Atencion-Al-Cliente.csproj|c:\\users\\rodry\\source\\repos\\sistema-atencion-al-cliente\\sistema-atencion-al-cliente\\formularios\\formclientes\\formcola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DF4099C-C3DE-4EC8-A1A0-0BCEBDA88D38}|Sistema-Atencion-Al-Cliente\\Sistema-Atencion-Al-Cliente.csproj|solutionrelative:sistema-atencion-al-cliente\\formularios\\formclientes\\formcola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2DF4099C-C3DE-4EC8-A1A0-0BCEBDA88D38}|Sistema-Atencion-Al-Cliente\\Sistema-Atencion-Al-Cliente.csproj|c:\\users\\rodry\\source\\repos\\sistema-atencion-al-cliente\\sistema-atencion-al-cliente\\formularios\\formcontenedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2DF4099C-C3DE-4EC8-A1A0-0BCEBDA88D38}|Sistema-Atencion-Al-Cliente\\Sistema-Atencion-Al-Cliente.csproj|solutionrelative:sistema-atencion-al-cliente\\formularios\\formcontenedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DF4099C-C3DE-4EC8-A1A0-0BCEBDA88D38}|Sistema-Atencion-Al-Cliente\\Sistema-Atencion-Al-Cliente.csproj|c:\\users\\rodry\\source\\repos\\sistema-atencion-al-cliente\\sistema-atencion-al-cliente\\formularios\\grabaciones\\formexplicaciondelcodigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DF4099C-C3DE-4EC8-A1A0-0BCEBDA88D38}|Sistema-Atencion-Al-Cliente\\Sistema-Atencion-Al-Cliente.csproj|solutionrelative:sistema-atencion-al-cliente\\formularios\\grabaciones\\formexplicaciondelcodigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2DF4099C-C3DE-4EC8-A1A0-0BCEBDA88D38}|Sistema-Atencion-Al-Cliente\\Sistema-Atencion-Al-Cliente.csproj|c:\\users\\rodry\\source\\repos\\sistema-atencion-al-cliente\\sistema-atencion-al-cliente\\formularios\\formclientes\\formcola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2DF4099C-C3DE-4EC8-A1A0-0BCEBDA88D38}|Sistema-Atencion-Al-Cliente\\Sistema-Atencion-Al-Cliente.csproj|solutionrelative:sistema-atencion-al-cliente\\formularios\\formclientes\\formcola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,65 +46,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormExplicacionDelCodigo.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\Sistema-Atencion-Al-Cliente\\Sistema-Atencion-Al-Cliente\\Formularios\\Grabaciones\\FormExplicacionDelCodigo.cs",
-              "RelativeDocumentMoniker": "Sistema-Atencion-Al-Cliente\\Formularios\\Grabaciones\\FormExplicacionDelCodigo.cs",
-              "ToolTip": "C:\\Users\\rodry\\source\\repos\\Sistema-Atencion-Al-Cliente\\Sistema-Atencion-Al-Cliente\\Formularios\\Grabaciones\\FormExplicacionDelCodigo.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Sistema-Atencion-Al-Cliente\\Formularios\\Grabaciones\\FormExplicacionDelCodigo.cs [Dise\u00F1o]",
+              "DocumentIndex": 1,
+              "Title": "FormAtender.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\Sistema-Atencion-Al-Cliente\\Sistema-Atencion-Al-Cliente\\Formularios\\FormClientes\\FormAtender.cs",
+              "RelativeDocumentMoniker": "Sistema-Atencion-Al-Cliente\\Formularios\\FormClientes\\FormAtender.cs",
+              "ToolTip": "C:\\Users\\rodry\\source\\repos\\Sistema-Atencion-Al-Cliente\\Sistema-Atencion-Al-Cliente\\Formularios\\FormClientes\\FormAtender.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Sistema-Atencion-Al-Cliente\\Formularios\\FormClientes\\FormAtender.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T06:00:37.873Z",
+              "WhenOpened": "2025-11-12T06:46:30.886Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Helper.cs",
-              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\Sistema-Atencion-Al-Cliente\\Sistema-Atencion-Al-Cliente\\Utilidades\\Helper.cs",
-              "RelativeDocumentMoniker": "Sistema-Atencion-Al-Cliente\\Utilidades\\Helper.cs",
-              "ToolTip": "C:\\Users\\rodry\\source\\repos\\Sistema-Atencion-Al-Cliente\\Sistema-Atencion-Al-Cliente\\Utilidades\\Helper.cs",
-              "RelativeToolTip": "Sistema-Atencion-Al-Cliente\\Utilidades\\Helper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA0AAAAAAAAAA==",
+              "Title": "FormCola.cs",
+              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\Sistema-Atencion-Al-Cliente\\Sistema-Atencion-Al-Cliente\\Formularios\\FormClientes\\FormCola.cs",
+              "RelativeDocumentMoniker": "Sistema-Atencion-Al-Cliente\\Formularios\\FormClientes\\FormCola.cs",
+              "ToolTip": "C:\\Users\\rodry\\source\\repos\\Sistema-Atencion-Al-Cliente\\Sistema-Atencion-Al-Cliente\\Formularios\\FormClientes\\FormCola.cs",
+              "RelativeToolTip": "Sistema-Atencion-Al-Cliente\\Formularios\\FormClientes\\FormCola.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T06:00:12.14Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AbrirUrl.cs",
-              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\Sistema-Atencion-Al-Cliente\\Sistema-Atencion-Al-Cliente\\Utilidades\\AbrirUrl.cs",
-              "RelativeDocumentMoniker": "Sistema-Atencion-Al-Cliente\\Utilidades\\AbrirUrl.cs",
-              "ToolTip": "C:\\Users\\rodry\\source\\repos\\Sistema-Atencion-Al-Cliente\\Sistema-Atencion-Al-Cliente\\Utilidades\\AbrirUrl.cs",
-              "RelativeToolTip": "Sistema-Atencion-Al-Cliente\\Utilidades\\AbrirUrl.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T05:59:31.227Z",
+              "WhenOpened": "2025-11-12T06:46:29.087Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "FormContenedor.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\Sistema-Atencion-Al-Cliente\\Sistema-Atencion-Al-Cliente\\Formularios\\FormContenedor.cs",
-              "RelativeDocumentMoniker": "Sistema-Atencion-Al-Cliente\\Formularios\\FormContenedor.cs",
-              "ToolTip": "C:\\Users\\rodry\\source\\repos\\Sistema-Atencion-Al-Cliente\\Sistema-Atencion-Al-Cliente\\Formularios\\FormContenedor.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Sistema-Atencion-Al-Cliente\\Formularios\\FormContenedor.cs [Dise\u00F1o]",
+              "Title": "FormCola.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\Sistema-Atencion-Al-Cliente\\Sistema-Atencion-Al-Cliente\\Formularios\\FormClientes\\FormCola.cs",
+              "RelativeDocumentMoniker": "Sistema-Atencion-Al-Cliente\\Formularios\\FormClientes\\FormCola.cs",
+              "ToolTip": "C:\\Users\\rodry\\source\\repos\\Sistema-Atencion-Al-Cliente\\Sistema-Atencion-Al-Cliente\\Formularios\\FormClientes\\FormCola.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Sistema-Atencion-Al-Cliente\\Formularios\\FormClientes\\FormCola.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T05:47:49.931Z",
+              "WhenOpened": "2025-11-12T06:46:28.087Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FormExplicacionDelCodigo.cs",
-              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\Sistema-Atencion-Al-Cliente\\Sistema-Atencion-Al-Cliente\\Formularios\\Grabaciones\\FormExplicacionDelCodigo.cs",
-              "RelativeDocumentMoniker": "Sistema-Atencion-Al-Cliente\\Formularios\\Grabaciones\\FormExplicacionDelCodigo.cs",
-              "ToolTip": "C:\\Users\\rodry\\source\\repos\\Sistema-Atencion-Al-Cliente\\Sistema-Atencion-Al-Cliente\\Formularios\\Grabaciones\\FormExplicacionDelCodigo.cs",
-              "RelativeToolTip": "Sistema-Atencion-Al-Cliente\\Formularios\\Grabaciones\\FormExplicacionDelCodigo.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAcwBgAAAAyAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "FormAtender.cs",
+              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\Sistema-Atencion-Al-Cliente\\Sistema-Atencion-Al-Cliente\\Formularios\\FormClientes\\FormAtender.cs",
+              "RelativeDocumentMoniker": "Sistema-Atencion-Al-Cliente\\Formularios\\FormClientes\\FormAtender.cs",
+              "ToolTip": "C:\\Users\\rodry\\source\\repos\\Sistema-Atencion-Al-Cliente\\Sistema-Atencion-Al-Cliente\\Formularios\\FormClientes\\FormAtender.cs",
+              "RelativeToolTip": "Sistema-Atencion-Al-Cliente\\Formularios\\FormClientes\\FormAtender.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T05:46:55.116Z",
+              "WhenOpened": "2025-11-12T06:27:34.294Z",
               "EditorCaption": ""
             }
           ]
