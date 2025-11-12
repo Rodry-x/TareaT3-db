@@ -20,7 +20,7 @@ namespace Sistema_Atencion_Al_Cliente.Modelos
         {
         }
 
-        /// Constructor obligatorio con Asunto.
+        /// Constructor
         public Cliente(string nombres, string apellidos, int dni, string asunto)
         {
             Nombres = nombres ?? string.Empty;

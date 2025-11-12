@@ -13,6 +13,9 @@
     <Compile Update="Formularios\FormInicio.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Formularios\Grabaciones\FormExplicacionDelCodigo.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Formularios\Historial\FormHistorial.cs">
       <SubType>Form</SubType>
     </Compile>

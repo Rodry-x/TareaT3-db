@@ -73,6 +73,26 @@ namespace Sistema_Atencion_Al_Cliente.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap imageCharla {
+            get {
+                object obj = ResourceManager.GetObject("imageCharla", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imagenExplicacion {
+            get {
+                object obj = ResourceManager.GetObject("imagenExplicacion", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap imagenMujerSonrriendo {
             get {
                 object obj = ResourceManager.GetObject("imagenMujerSonrriendo", resourceCulture);

@@ -1,7 +1,4 @@
-﻿using System;
-using System.Linq;
-using System.Windows.Forms;
-
+﻿
 namespace Sistema_Atencion_Al_Cliente.Utilidades
 {
     internal static class PanelController

@@ -31,6 +31,8 @@
             panelInmovil = new Panel();
             panelContenedor = new Panel();
             panel1 = new Panel();
+            label2 = new Label();
+            button5 = new Button();
             label3 = new Label();
             label1 = new Label();
             button4 = new Button();
@@ -38,9 +40,14 @@
             button2 = new Button();
             button1 = new Button();
             pictureBox1 = new PictureBox();
+            label4 = new Label();
+            label5 = new Label();
+            pictureBox2 = new PictureBox();
             panelInmovil.SuspendLayout();
+            panelContenedor.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // panelInmovil
@@ -54,6 +61,9 @@
             // 
             // panelContenedor
             // 
+            panelContenedor.Controls.Add(pictureBox2);
+            panelContenedor.Controls.Add(label5);
+            panelContenedor.Controls.Add(label4);
             panelContenedor.Location = new Point(209, 10);
             panelContenedor.Name = "panelContenedor";
             panelContenedor.Size = new Size(380, 620);
@@ -62,6 +72,8 @@
             // panel1
             // 
             panel1.BackColor = SystemColors.ActiveCaption;
+            panel1.Controls.Add(label2);
+            panel1.Controls.Add(button5);
             panel1.Controls.Add(label3);
             panel1.Controls.Add(label1);
             panel1.Controls.Add(button4);
@@ -74,12 +86,33 @@
             panel1.Size = new Size(196, 629);
             panel1.TabIndex = 3;
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold | FontStyle.Italic);
+            label2.ForeColor = SystemColors.Control;
+            label2.Location = new Point(42, 436);
+            label2.Name = "label2";
+            label2.Size = new Size(113, 28);
+            label2.TabIndex = 9;
+            label2.Text = "Explicación";
+            // 
+            // button5
+            // 
+            button5.Location = new Point(31, 476);
+            button5.Name = "button5";
+            button5.Size = new Size(133, 42);
+            button5.TabIndex = 8;
+            button5.Text = "Grabaciones";
+            button5.UseVisualStyleBackColor = true;
+            button5.Click += cambiarAlPanelExplicacion_Click;
+            // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold | FontStyle.Italic);
             label3.ForeColor = SystemColors.Control;
-            label3.Location = new Point(55, 343);
+            label3.Location = new Point(55, 322);
             label3.Name = "label3";
             label3.Size = new Size(90, 28);
             label3.TabIndex = 7;
@@ -90,7 +123,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             label1.ForeColor = SystemColors.Control;
-            label1.Location = new Point(59, 176);
+            label1.Location = new Point(59, 163);
             label1.Name = "label1";
             label1.Size = new Size(76, 28);
             label1.TabIndex = 6;
@@ -98,7 +131,7 @@
             // 
             // button4
             // 
-            button4.Location = new Point(31, 283);
+            button4.Location = new Point(31, 258);
             button4.Name = "button4";
             button4.Size = new Size(133, 43);
             button4.TabIndex = 5;
@@ -118,7 +151,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(31, 385);
+            button2.Location = new Point(31, 364);
             button2.Name = "button2";
             button2.Size = new Size(133, 52);
             button2.TabIndex = 3;
@@ -128,7 +161,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(31, 220);
+            button1.Location = new Point(31, 207);
             button1.Name = "button1";
             button1.Size = new Size(133, 45);
             button1.TabIndex = 2;
@@ -146,6 +179,36 @@
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
             // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI Semibold", 20F, FontStyle.Bold | FontStyle.Italic);
+            label4.Location = new Point(94, 88);
+            label4.Name = "label4";
+            label4.Size = new Size(190, 46);
+            label4.TabIndex = 0;
+            label4.Text = "Bienvenido";
+            // 
+            // label5
+            // 
+            label5.Font = new Font("Segoe UI", 18F, FontStyle.Italic, GraphicsUnit.Point, 0);
+            label5.Location = new Point(22, 395);
+            label5.Name = "label5";
+            label5.Size = new Size(346, 97);
+            label5.TabIndex = 1;
+            label5.Text = "Haga click en cualquier\r\nboton para continuar";
+            label5.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = Properties.Resources.imageCharla;
+            pictureBox2.Location = new Point(75, 148);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(229, 232);
+            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox2.TabIndex = 2;
+            pictureBox2.TabStop = false;
+            // 
             // FormContenedor
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -155,9 +218,12 @@
             Name = "FormContenedor";
             Text = "FormAgregarCliente";
             panelInmovil.ResumeLayout(false);
+            panelContenedor.ResumeLayout(false);
+            panelContenedor.PerformLayout();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
         }
 
@@ -173,5 +239,10 @@
         private Label label3;
         private Label label1;
         private Panel panelContenedor;
+        private Label label2;
+        private Button button5;
+        private Label label5;
+        private Label label4;
+        private PictureBox pictureBox2;
     }
 }

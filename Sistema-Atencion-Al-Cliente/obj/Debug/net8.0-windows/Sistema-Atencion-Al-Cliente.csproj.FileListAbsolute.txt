@@ -20,3 +20,4 @@ C:\Users\rodry\source\repos\Sistema-Atencion-Al-Cliente\Sistema-Atencion-Al-Clie
 C:\Users\rodry\source\repos\Sistema-Atencion-Al-Cliente\Sistema-Atencion-Al-Cliente\obj\Debug\net8.0-windows\Sistema-Atencion-Al-Cliente.sourcelink.json
 C:\Users\rodry\source\repos\Sistema-Atencion-Al-Cliente\Sistema-Atencion-Al-Cliente\obj\Debug\net8.0-windows\Sistema_Atencion_Al_Cliente.Formularios.FormClientes.FormCola.resources
 C:\Users\rodry\source\repos\Sistema-Atencion-Al-Cliente\Sistema-Atencion-Al-Cliente\obj\Debug\net8.0-windows\Sistema_Atencion_Al_Cliente.Formularios.FormClientes.FormAtender.resources
+C:\Users\rodry\source\repos\Sistema-Atencion-Al-Cliente\Sistema-Atencion-Al-Cliente\obj\Debug\net8.0-windows\Sistema_Atencion_Al_Cliente.Formularios.Grabaciones.FormExplicacionDelCodigo.resources

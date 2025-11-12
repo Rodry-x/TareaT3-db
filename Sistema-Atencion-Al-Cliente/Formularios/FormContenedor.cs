@@ -1,15 +1,7 @@
 ﻿using Sistema_Atencion_Al_Cliente.Formularios.FormClientes;
+using Sistema_Atencion_Al_Cliente.Formularios.Grabaciones;
 using Sistema_Atencion_Al_Cliente.Formularios.Historial;
 using Sistema_Atencion_Al_Cliente.Utilidades;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace Sistema_Atencion_Al_Cliente.Formularios
 {
@@ -24,6 +16,7 @@ namespace Sistema_Atencion_Al_Cliente.Formularios
         private FormCola formPonerEnCola;
         private FormAtender formAtenderCliente;
         private FormHistorial formHistorial;
+        private FormExplicacionDelCodigo formExplicacion;
 
         public Panel PanelContenedorController => panelInmovil;
 
@@ -49,6 +42,12 @@ namespace Sistema_Atencion_Al_Cliente.Formularios
         {
             formHistorial = new FormHistorial();
             PanelController.CambiarPanel(panelContenedor, formHistorial.PanelHistorialController);
+        }
+
+        private void cambiarAlPanelExplicacion_Click(object sender, EventArgs e)
+        {
+            formExplicacion = new FormExplicacionDelCodigo();
+            PanelController.CambiarPanel(panelInmovil, formExplicacion.PanelExplicacionDelCodigo);
         }
     }
 }
