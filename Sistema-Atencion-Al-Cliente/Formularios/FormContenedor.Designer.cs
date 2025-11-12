@@ -104,6 +104,7 @@
             button4.TabIndex = 5;
             button4.Text = "Atender Cliente";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += cambiarAlPanelAtender_Click;
             // 
             // button3
             // 
@@ -123,6 +124,7 @@
             button2.TabIndex = 3;
             button2.Text = "Mostrar Historial";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += cambiarAlPanelHistorial_Click;
             // 
             // button1
             // 

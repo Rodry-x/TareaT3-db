@@ -8,13 +8,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Sistema_Atencion_Al_Cliente.Formularios.Cliente
+namespace Sistema_Atencion_Al_Cliente.Formularios.FormClientes
 {
-    public partial class FormAtenderCliente : Form
+    public partial class FormAtender : Form
     {
-        public FormAtenderCliente()
+        public FormAtender()
         {
             InitializeComponent();
         }
+        public Panel PanelAtenderController => panelAtender;
     }
 }

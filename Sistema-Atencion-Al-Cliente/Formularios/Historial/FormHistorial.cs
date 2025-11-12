@@ -16,5 +16,6 @@ namespace Sistema_Atencion_Al_Cliente.Formularios.Historial
         {
             InitializeComponent();
         }
+        public Panel PanelHistorialController => panelHistorial;
     }
 }

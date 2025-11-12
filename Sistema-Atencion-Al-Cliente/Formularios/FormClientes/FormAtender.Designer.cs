@@ -1,6 +1,6 @@
-﻿namespace Sistema_Atencion_Al_Cliente.Formularios.Cliente
+﻿namespace Sistema_Atencion_Al_Cliente.Formularios.FormClientes
 {
-    partial class FormAtenderCliente
+    partial class FormAtender
     {
         /// <summary>
         /// Required designer variable.
@@ -28,30 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            panelAtenderCliente = new Panel();
-            label1 = new Label();
+            panelAtender = new Panel();
             label2 = new Label();
-            panelAtenderCliente.SuspendLayout();
+            label1 = new Label();
+            panelAtender.SuspendLayout();
             SuspendLayout();
             // 
-            // panelAtenderCliente
+            // panelAtender
             // 
-            panelAtenderCliente.Controls.Add(label2);
-            panelAtenderCliente.Controls.Add(label1);
-            panelAtenderCliente.Location = new Point(5, 5);
-            panelAtenderCliente.Name = "panelAtenderCliente";
-            panelAtenderCliente.Size = new Size(380, 620);
-            panelAtenderCliente.TabIndex = 0;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI Semibold", 16F, FontStyle.Bold | FontStyle.Italic);
-            label1.Location = new Point(17, 16);
-            label1.Name = "label1";
-            label1.Size = new Size(206, 37);
-            label1.TabIndex = 0;
-            label1.Text = "Atender Cliente";
+            panelAtender.Controls.Add(label2);
+            panelAtender.Controls.Add(label1);
+            panelAtender.Location = new Point(5, 5);
+            panelAtender.Name = "panelAtender";
+            panelAtender.Size = new Size(380, 620);
+            panelAtender.TabIndex = 1;
             // 
             // label2
             // 
@@ -63,22 +53,32 @@
             label2.TabIndex = 1;
             label2.Text = "label";
             // 
-            // FormAtenderCliente
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI Semibold", 16F, FontStyle.Bold | FontStyle.Italic);
+            label1.Location = new Point(17, 16);
+            label1.Name = "label1";
+            label1.Size = new Size(206, 37);
+            label1.TabIndex = 0;
+            label1.Text = "Atender Cliente";
+            // 
+            // FormAtender
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(392, 633);
-            Controls.Add(panelAtenderCliente);
-            Name = "FormAtenderCliente";
-            Text = "FormAtenderCliente";
-            panelAtenderCliente.ResumeLayout(false);
-            panelAtenderCliente.PerformLayout();
+            ClientSize = new Size(391, 633);
+            Controls.Add(panelAtender);
+            Name = "FormAtender";
+            Text = "FormAtender";
+            panelAtender.ResumeLayout(false);
+            panelAtender.PerformLayout();
             ResumeLayout(false);
         }
 
         #endregion
 
-        private Panel panelAtenderCliente;
+        private Panel panelAtender;
         private Label label2;
         private Label label1;
     }

@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="Formularios\FormCliente\FormAtenderCliente.cs">
+    <Compile Update="Formularios\FormClientes\FormAtender.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormClientes\FormCola.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Formularios\FormContenedor.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Formularios\FormInicio.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Formularios\FormCliente\FormPonerEnCola.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Formularios\Historial\FormHistorial.cs">

@@ -14,8 +14,9 @@ C:\Users\rodry\source\repos\Sistema-Atencion-Al-Cliente\Sistema-Atencion-Al-Clie
 C:\Users\rodry\source\repos\Sistema-Atencion-Al-Cliente\Sistema-Atencion-Al-Cliente\obj\Debug\net8.0-windows\Sistema-Atencion-Al-Cliente.genruntimeconfig.cache
 C:\Users\rodry\source\repos\Sistema-Atencion-Al-Cliente\Sistema-Atencion-Al-Cliente\obj\Debug\net8.0-windows\ref\Sistema-Atencion-Al-Cliente.dll
 C:\Users\rodry\source\repos\Sistema-Atencion-Al-Cliente\Sistema-Atencion-Al-Cliente\obj\Debug\net8.0-windows\Sistema_Atencion_Al_Cliente.Properties.Resources.resources
-C:\Users\rodry\source\repos\Sistema-Atencion-Al-Cliente\Sistema-Atencion-Al-Cliente\obj\Debug\net8.0-windows\Sistema_Atencion_Al_Cliente.Formularios.Cliente.FormAtenderCliente.resources
-C:\Users\rodry\source\repos\Sistema-Atencion-Al-Cliente\Sistema-Atencion-Al-Cliente\obj\Debug\net8.0-windows\Sistema_Atencion_Al_Cliente.Formularios.FormPonerEnCola.resources
 C:\Users\rodry\source\repos\Sistema-Atencion-Al-Cliente\Sistema-Atencion-Al-Cliente\obj\Debug\net8.0-windows\Sistema_Atencion_Al_Cliente.Formularios.FormContenedor.resources
 C:\Users\rodry\source\repos\Sistema-Atencion-Al-Cliente\Sistema-Atencion-Al-Cliente\obj\Debug\net8.0-windows\Sistema_Atencion_Al_Cliente.Formularios.FormInicio.resources
 C:\Users\rodry\source\repos\Sistema-Atencion-Al-Cliente\Sistema-Atencion-Al-Cliente\obj\Debug\net8.0-windows\Sistema_Atencion_Al_Cliente.Formularios.Historial.FormHistorial.resources
+C:\Users\rodry\source\repos\Sistema-Atencion-Al-Cliente\Sistema-Atencion-Al-Cliente\obj\Debug\net8.0-windows\Sistema-Atencion-Al-Cliente.sourcelink.json
+C:\Users\rodry\source\repos\Sistema-Atencion-Al-Cliente\Sistema-Atencion-Al-Cliente\obj\Debug\net8.0-windows\Sistema_Atencion_Al_Cliente.Formularios.FormClientes.FormCola.resources
+C:\Users\rodry\source\repos\Sistema-Atencion-Al-Cliente\Sistema-Atencion-Al-Cliente\obj\Debug\net8.0-windows\Sistema_Atencion_Al_Cliente.Formularios.FormClientes.FormAtender.resources

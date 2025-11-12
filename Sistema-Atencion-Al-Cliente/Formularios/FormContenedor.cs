@@ -1,4 +1,6 @@
-﻿using Sistema_Atencion_Al_Cliente.Utilidades;
+﻿using Sistema_Atencion_Al_Cliente.Formularios.FormClientes;
+using Sistema_Atencion_Al_Cliente.Formularios.Historial;
+using Sistema_Atencion_Al_Cliente.Utilidades;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -19,7 +21,10 @@ namespace Sistema_Atencion_Al_Cliente.Formularios
         }
 
         private FormInicio formInicio;
-        private FormPonerEnCola formPonerEnCola;
+        private FormCola formPonerEnCola;
+        private FormAtender formAtenderCliente;
+        private FormHistorial formHistorial;
+
         public Panel PanelContenedorController => panelInmovil;
 
         private void cambiarAlPanelInicio_Click(object sender, EventArgs e)
@@ -30,8 +35,20 @@ namespace Sistema_Atencion_Al_Cliente.Formularios
 
         private void cambiarAlPanelDeCola_Click(object sender, EventArgs e)
         {
-            formPonerEnCola = new FormPonerEnCola();
-            PanelController.CambiarPanel(panelContenedor, formPonerEnCola.PanelPonerEnColaController);
+            formPonerEnCola = new FormCola();
+            PanelController.CambiarPanel(panelContenedor, formPonerEnCola.PanelColaController);
+        }
+
+        private void cambiarAlPanelAtender_Click(object sender, EventArgs e)
+        {
+            formAtenderCliente = new FormAtender();
+            PanelController.CambiarPanel(panelContenedor, formAtenderCliente.PanelAtenderController);
+        }
+
+        private void cambiarAlPanelHistorial_Click(object sender, EventArgs e)
+        {
+            formHistorial = new FormHistorial();
+            PanelController.CambiarPanel(panelContenedor, formHistorial.PanelHistorialController);
         }
     }
 }
