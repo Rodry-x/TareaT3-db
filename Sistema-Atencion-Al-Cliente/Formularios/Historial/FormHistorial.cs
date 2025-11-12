@@ -1,7 +1,5 @@
 ﻿using Sistema_Atencion_Al_Cliente.Modelos;
 using Sistema_Atencion_Al_Cliente.EstructuraDeDatos;
-using System;
-using System.Windows.Forms;
 
 namespace Sistema_Atencion_Al_Cliente.Formularios.Historial
 {

@@ -16,7 +16,7 @@ namespace Sistema_Atencion_Al_Cliente.Modelos
             ? Nombres
             : $"{Nombres} {Apellidos}";
 
-        /// Constructor
+        /// --- Constructor ---
         public Cliente(string nombres, string apellidos, int dni, string asunto)
         {
             Nombres = nombres ?? string.Empty;

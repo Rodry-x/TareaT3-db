@@ -1,5 +1,4 @@
 ﻿using Sistema_Atencion_Al_Cliente.Formularios.FormClientes;
-using Sistema_Atencion_Al_Cliente.Formularios.Grabaciones;
 using Sistema_Atencion_Al_Cliente.Formularios.Historial;
 using Sistema_Atencion_Al_Cliente.Utilidades;
 using Sistema_Atencion_Al_Cliente.EstructuraDeDatos;
@@ -17,7 +16,6 @@ namespace Sistema_Atencion_Al_Cliente.Formularios
         private FormCola formPonerEnCola;
         private FormAtender formAtenderCliente;
         private FormHistorial formHistorial;
-        private FormExplicacionDelCodigo formExplicacion;
 
         // Lista compartida usada por los formularios de clientes.
         private readonly ListaSimple listaCompartida = new ListaSimple();
@@ -46,12 +44,6 @@ namespace Sistema_Atencion_Al_Cliente.Formularios
         {
             formHistorial = new FormHistorial(listaCompartida);
             PanelController.CambiarPanel(panelContenedor, formHistorial.PanelHistorialController);
-        }
-
-        private void cambiarAlPanelExplicacion_Click(object sender, EventArgs e)
-        {
-            formExplicacion = new FormExplicacionDelCodigo();
-            PanelController.CambiarPanel(panelInmovil, formExplicacion.PanelExplicacionDelCodigo);
         }
     }
 }

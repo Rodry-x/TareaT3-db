@@ -20,7 +20,6 @@ namespace Sistema_Atencion_Al_Cliente.Formularios.FormClientes
         {
             InitializeComponent();
             listaClientes = listaCompartida ?? new ListaSimple();
-            // No añadir datos de ejemplo: se usa la lista compartida tal cual está.
         }
 
         public Panel PanelAtenderController => panelAtender;

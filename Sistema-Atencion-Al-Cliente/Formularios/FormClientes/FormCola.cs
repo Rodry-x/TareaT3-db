@@ -8,7 +8,6 @@ namespace Sistema_Atencion_Al_Cliente.Formularios.FormClientes
     public partial class FormCola : Form
     {
 
-        // Lista local donde se guardarán los clientes registrados desde este formulario.
         private readonly ListaSimple listaClientes;
 
         public FormCola()
@@ -34,7 +33,7 @@ namespace Sistema_Atencion_Al_Cliente.Formularios.FormClientes
             var dniStr = txtDNI.Text.Trim();
             var asunto = txtAsunto?.Text.Trim() ?? string.Empty;
 
-            // Validaciones con helper centralizado.
+            // ---- Validaciones con helper centralizado. ----
             if (!Helper.ValidarYNotificar(txtNombres, "El campo Nombres es obligatorio."))
                 return;
 
@@ -44,7 +43,7 @@ namespace Sistema_Atencion_Al_Cliente.Formularios.FormClientes
             if (!Helper.ValidarYNotificar(txtAsunto, "El campo Asunto es obligatorio."))
                 return;
 
-            // Validar nombres (solo letras y espacios, Unicode aware).
+            // --- Validar nombres (solo letras y espacios, Unicode aware). ---
             if (!Regex.IsMatch(nombres, @"^[\p{L}\s]+$"))
             {
                 MessageBox.Show("El campo Nombres solo puede contener letras y espacios.", "Validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -59,7 +58,7 @@ namespace Sistema_Atencion_Al_Cliente.Formularios.FormClientes
                 return;
             }
 
-            // Validar DNI: exactamente 8 dígitos, solo números.
+            // --- Validar DNI: exactamente 8 dígitos, solo números. ---
             if (!Regex.IsMatch(dniStr, @"^\d{8}$"))
             {
                 MessageBox.Show("El DNI debe contener exactamente 8 dígitos numéricos.", "Validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
