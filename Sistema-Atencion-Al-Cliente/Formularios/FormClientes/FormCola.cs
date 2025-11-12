@@ -9,12 +9,21 @@ namespace Sistema_Atencion_Al_Cliente.Formularios.FormClientes
     {
 
         // Lista local donde se guardarán los clientes registrados desde este formulario.
-        private readonly ListaSimple listaClientes = new ListaSimple();
+        private readonly ListaSimple listaClientes;
 
         public FormCola()
         {
+            listaClientes = new ListaSimple();
             InitializeComponent();
         }
+
+        // Constructor que acepta una lista compartida.
+        public FormCola(ListaSimple listaCompartida)
+        {
+            listaClientes = listaCompartida ?? new ListaSimple();
+            InitializeComponent();
+        }
+
         public Panel PanelColaController => panelPonerEnCola;
 
         private void guardarDatosDelCliente_Click(object sender, EventArgs e)

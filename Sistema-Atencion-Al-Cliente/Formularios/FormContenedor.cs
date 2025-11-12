@@ -2,6 +2,7 @@
 using Sistema_Atencion_Al_Cliente.Formularios.Grabaciones;
 using Sistema_Atencion_Al_Cliente.Formularios.Historial;
 using Sistema_Atencion_Al_Cliente.Utilidades;
+using Sistema_Atencion_Al_Cliente.EstructuraDeDatos;
 
 namespace Sistema_Atencion_Al_Cliente.Formularios
 {
@@ -18,6 +19,9 @@ namespace Sistema_Atencion_Al_Cliente.Formularios
         private FormHistorial formHistorial;
         private FormExplicacionDelCodigo formExplicacion;
 
+        // Lista compartida usada por los formularios de clientes.
+        private readonly ListaSimple listaCompartida = new ListaSimple();
+
         public Panel PanelContenedorController => panelInmovil;
 
         private void cambiarAlPanelInicio_Click(object sender, EventArgs e)
@@ -28,19 +32,19 @@ namespace Sistema_Atencion_Al_Cliente.Formularios
 
         private void cambiarAlPanelDeCola_Click(object sender, EventArgs e)
         {
-            formPonerEnCola = new FormCola();
+            formPonerEnCola = new FormCola(listaCompartida);
             PanelController.CambiarPanel(panelContenedor, formPonerEnCola.PanelColaController);
         }
 
         private void cambiarAlPanelAtender_Click(object sender, EventArgs e)
         {
-            formAtenderCliente = new FormAtender();
+            formAtenderCliente = new FormAtender(listaCompartida);
             PanelController.CambiarPanel(panelContenedor, formAtenderCliente.PanelAtenderController);
         }
 
         private void cambiarAlPanelHistorial_Click(object sender, EventArgs e)
         {
-            formHistorial = new FormHistorial();
+            formHistorial = new FormHistorial(listaCompartida);
             PanelController.CambiarPanel(panelContenedor, formHistorial.PanelHistorialController);
         }
 

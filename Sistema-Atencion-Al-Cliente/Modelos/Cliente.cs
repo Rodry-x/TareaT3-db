@@ -2,7 +2,7 @@
 
 namespace Sistema_Atencion_Al_Cliente.Modelos
 {
-    internal class Cliente
+    public class Cliente
     {
         /// ---- Getters y Setters ----
         public string Nombres { get; set; } = string.Empty;
@@ -15,10 +15,6 @@ namespace Sistema_Atencion_Al_Cliente.Modelos
         public string NombreCompleto => string.IsNullOrWhiteSpace(Apellidos)
             ? Nombres
             : $"{Nombres} {Apellidos}";
-
-        public Cliente()
-        {
-        }
 
         /// Constructor
         public Cliente(string nombres, string apellidos, int dni, string asunto)

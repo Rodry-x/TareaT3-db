@@ -8,15 +8,19 @@ namespace Sistema_Atencion_Al_Cliente.Formularios.FormClientes
     {
         private ListaSimple listaClientes;
 
+        // Constructor por defecto: asegurar inicialización para evitar NRE en diseño.
         public FormAtender()
         {
-            InitializeComponent();
-            // Inicializar la lista
             listaClientes = new ListaSimple();
+            InitializeComponent();
+        }
 
-            // Agregar clientes de ejemplo (DNI como int)
-            listaClientes.Agregar(new Cliente("Juan", "Pérez", 12345678, "Consulta de facturación"));
-            listaClientes.Agregar(new Cliente("María", "Ruiz", 87654321, "Soporte técnico"));
+        // Nuevo constructor que recibe la lista desde FormCola u otro origen.
+        public FormAtender(ListaSimple listaCompartida)
+        {
+            InitializeComponent();
+            listaClientes = listaCompartida ?? new ListaSimple();
+            // No añadir datos de ejemplo: se usa la lista compartida tal cual está.
         }
 
         public Panel PanelAtenderController => panelAtender;
